@@ -1,0 +1,150 @@
+{
+    "description": "%ext.description%",
+    "galleryBanner": {
+        "color": "#C0C0C8",
+        "theme": "dark"
+    },
+    "icon": "resources/icon/extension_main.png",
+    "license": "MIT",
+    "preview": true,
+    "keywords": [
+        "xxx"
+    ],
+    "homepage": "https://github.com/TatsuyaNakamori/vscode-XXXX",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TatsuyaNakamori/vscode-XXXX.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TatsuyaNakamori/vscode-XXXX/issues"
+    },
+    "contributes": {
+        "commands": [
+            {
+                "category": "reStructuredText",
+                "command": "XXXX.COMMAND",
+                "title": "%XXXX.COMMAND.title%",
+                "icon": "$(preview)",
+                "when": ""
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "XXXX.COMMAND",
+                "key": "alt+b",
+                "when": ""
+            }
+        ],
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "XXXX.COMMAND",
+                    "when": "never"
+                }
+            ]
+        },
+        "configuration": [
+            {
+                "title": "reStructuredText",
+                "properties": {
+                    "resttext.sphinxQuickStart.options": {
+                        "type": "object",
+                        "properties": {
+                            "Project name": {
+                                "type": "string"
+                            },
+                            "Author name(s)": {
+                                "type": "string"
+                            },
+                            "Project version": {
+                                "type": "string"
+                            },
+                            "Project release": {
+                                "type": "string"
+                            },
+                            "Project language": {
+                                "type": "string",
+                                "enum": [
+                                    "en (English)", "ja (日本語)", "de (German)", "it (Italian)", "fr (French)",
+                                    "es (Spanish)", "nl (Dutch)", "zh_TW (Traditional Chinese)", "zh_CN (Simplified Chinese)",
+                                    "hi (Hindi)", "hi_IN (Hindi (India))", "ar (Arabic)", "bg (Bulgarian)", "bn (Bengali)",
+                                    "ca (Catalan)", "cak (Kaqchikel)", "cs (Czech)", "cy (Welsh)", "da (Danish)", "el (Greek)",
+                                    "eo (Esperanto)", "et (Estonian)", "eu (Basque)", "fa (Iranian)", "fi (Finnish)",
+                                    "he (Hebrew)", "hr (Croatian)", "hu (Hungarian)", "id (Indonesian)", "ko (Korean)",
+                                    "lt (Lithuanian)", "lv (Latvian)", "mk (Macedonian)", "nb_NO (Norwegian Bokmal)",
+                                    "ne (Nepali)", "pl (Polish)", "pt (Portuguese)", "pt_BR (Brazilian Portuguese)",
+                                    "pt_PT (European Portuguese)", "ro (Romanian)", "ru (Russian)", "si (Sinhala)",
+                                    "sk (Slovak)", "sl (Slovenian)", "sq (Albanian)", "uk_UA (Ukrainian)", "ur (Urdu)",
+                                    "sr (Serbian)", "sr@latin (Serbian (Latin))", "sr_RS (Serbian (Cyrillic))", "sv (Swedish)",
+                                    "ta (Tamil)", "te (Telugu)", "tr (Turkish)", "vi (Vietnamese)"
+                                ]
+                            },
+                            "Separate source and build directories": {
+                                "type": "boolean"
+                            },
+                            "Use epub": {
+                                "type": "boolean"
+                            },
+                            "Enable autodoc extension": {
+                                "type": "boolean"
+                            },
+                            "Enable doctest extension": {
+                                "type": "boolean"
+                            },
+                            "Enable intersphinx extension": {
+                                "type": "boolean"
+                            },
+                            "Enable todo extension": {
+                                "type": "boolean"
+                            },
+                            "Enable coverage extension": {
+                                "type": "boolean"
+                            },
+                            "Enable imgmath extension": {
+                                "type": "boolean"
+                            },
+                            "Enable mathjax extension": {
+                                "type": "boolean"
+                            },
+                            "Enable ifconfig extension": {
+                                "type": "boolean"
+                            },
+                            "Enable viewcode extension": {
+                                "type": "boolean"
+                            },
+                            "Enable githubpages extension": {
+                                "type": "boolean"
+                            }
+                        },
+                        "default": {
+                            "Project name": "My Document",
+                            "Author name(s)": "Your name",
+                            "Project version": "1.0",
+                            "Project release": "1.0.0",
+                            "Project language": "en (English)",
+                            "Separate source and build directories": false,
+                            "Use epub": false,
+                            "Enable autodoc extension": false,
+                            "Enable doctest extension": false,
+                            "Enable intersphinx extension": false,
+                            "Enable todo extension": false,
+                            "Enable coverage extension": false,
+                            "Enable imgmath extension": false,
+                            "Enable mathjax extension": false,
+                            "Enable ifconfig extension": false,
+                            "Enable viewcode extension": false,
+                            "Enable githubpages extension": false
+                        },
+                        "uniqueItems": true,
+                        "markdownDescription": "%conf.sphinx.quickstart%"
+                    },
+                    "resttext.previewHTML.endTask.killTerminal": {
+                        "type": "boolean",
+                        "default": true,
+                        "markdownDescription": "%conf.previewHTML.endTask.killTerminal%"
+                    }
+                }
+            }
+        ]
+    }
+}
