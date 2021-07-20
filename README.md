@@ -1,6 +1,6 @@
-# vscode-template README
+# [vscode-template] README
 
-![sample.gif]()
+<!-- ![sample.gif]() -->
 
 ----
 
@@ -18,10 +18,11 @@ For more information about each function, please refer to the following web page
 
 * [Top Page]()
 * [Overview]()
+* [How to use]()
 * [Details of each feature]()
 * [Known problems]()
-* [License]()
 * [Release Notes]()
+* [License]()
 
 ### Donations
 
@@ -43,10 +44,11 @@ If this tool saves you time, please donate to the development of the tool.
 
 * [トップページ]()
 * [概要]()
+* [使い方]()
 * [各機能の詳細]()
 * [既知の問題]()
-* [ライセンス]()
 * [更新履歴]()
+* [ライセンス]()
 
 ### 寄付
 
