@@ -11,3 +11,8 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 **/*.map
 **/*.ts
+
+
+docs/**
+docs_reST/**
+resources/_camtasia/**
